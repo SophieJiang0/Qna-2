@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BDB017420AB02EA0047E51E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB017320AB02EA0047E51E /* Question.swift */; };
 		9B174FE820AAF1A800402B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B174FE720AAF1A800402B75 /* AppDelegate.swift */; };
 		9B174FEA20AAF1A800402B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B174FE920AAF1A800402B75 /* ViewController.swift */; };
 		9B174FED20AAF1A800402B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B174FEB20AAF1A800402B75 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BDB017320AB02EA0047E51E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		9B174FE420AAF1A800402B75 /* Qna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B174FE720AAF1A800402B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B174FE920AAF1A800402B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				9B174FE720AAF1A800402B75 /* AppDelegate.swift */,
 				9B174FE920AAF1A800402B75 /* ViewController.swift */,
 				9B174FEB20AAF1A800402B75 /* Main.storyboard */,
+				8BDB017320AB02EA0047E51E /* Question.swift */,
 				9B174FEE20AAF1AA00402B75 /* Assets.xcassets */,
 				9B174FF020AAF1AA00402B75 /* LaunchScreen.storyboard */,
 				9B174FF320AAF1AA00402B75 /* Info.plist */,
@@ -96,11 +99,12 @@
 				TargetAttributes = {
 					9B174FE320AAF1A800402B75 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 9B174FDF20AAF1A800402B75 /* Build configuration list for PBXProject "Qna" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDB017420AB02EA0047E51E /* Question.swift in Sources */,
 				9B174FEA20AAF1A800402B75 /* ViewController.swift in Sources */,
 				9B174FE820AAF1A800402B75 /* AppDelegate.swift in Sources */,
 			);
@@ -270,8 +275,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -282,10 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Qna/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peter.Qna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -299,10 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Qna/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peter.Qna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
